@@ -23,7 +23,7 @@ const data = [
         link: '#',
     },
     {
-        imgSrc: 'car_4.jpg',
+        imgSrc: 'car_4.webp',
         imgAlt: 'Car 4',
         title: 'Car 4 title',
         desc: 'Lorem ipsum dolor sit amet provident quaerat necessitatibus quasi veritatis dicta consectetur debitis aliquam nobis consequuntur.',
