@@ -1,22 +1,33 @@
 body,
 body * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
-body {
-padding: 2rem;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-header {
+  padding: 1rem 2rem;
+  background-color: #eee;
+}
+.main-header nav {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+main {
+  padding: 2rem;
+}
 
 .zuikio-darzove {
-    font-size: 1.2rem;
-    background-color: green;
+  font-size: 1.2rem;
+  background-color: green;
 }
-.zuikio-darzo-error{
-    font-size: 1.2rem;
-    background-color: red;
+.zuikio-darzo-error {
+  font-size: 1.2rem;
+  background-color: red;
 }
-
-
