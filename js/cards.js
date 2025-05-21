@@ -1,3 +1,7 @@
+import { header } from "./header.js";
+
+header();
+
 const listDOM = document.querySelector('.list');
 
 const data = [
@@ -23,7 +27,7 @@ const data = [
         link: '#',
     },
     {
-        imgSrc: 'car_4.webp',
+        imgSrc: 'car_4.jpg',
         imgAlt: 'Car 4',
         title: 'Car 4 title',
         desc: 'Lorem ipsum dolor sit amet provident quaerat necessitatibus quasi veritatis dicta consectetur debitis aliquam nobis consequuntur.',

@@ -1,14 +1,14 @@
+import { header } from "./header.js";
+
+header();
+
 document.querySelector('title').textContent = 'Spalvos';
 
+const colors = ['yellow', 'red', 'green', 'blue', 'orange', 'aqua'];
+const ulDOM = document.querySelector('.colors');
 
-const colors = ['yellow', 'red', 'green', 'blue','orange','aqua']
-const u1DOM = document.querySelector('.colors');
-
-
-u1DOM.innerHTML = '';
+ulDOM.innerHTML = '';
 
 for (const color of colors) {
-u1DOM.innerHTML += `<li style = "background-color: ${color};">Spalva: ${color}</li>`;
+    ulDOM.innerHTML += `<li style="background-color: ${color};">Spalva: ${color}</li>`;
 }
-
- 
